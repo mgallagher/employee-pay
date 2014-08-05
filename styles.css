@@ -1,0 +1,44 @@
+body {
+	margin: auto;
+	width: 750 px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	padding: 12px 45px 0px 45px;
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	padding: 4px 0px 4px 0px;
+	margin-left: 20px;
+}
+
+input {
+	width: 100px;
+}
+
+.fields input {
+	display: inline-block;
+	text-align: left;
+}
+
+input[type=submit] {
+	margin-top: 15px;
+	border: 1px solid #006;
+	border-radius: 2px;
+	text-align: center;
+}
+
+input[type=submit]:hover {
+	color: #fff;
+	background-color: #369;
+}
